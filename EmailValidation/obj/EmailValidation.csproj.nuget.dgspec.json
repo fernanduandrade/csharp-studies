@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\UBS\\Desktop\\nando\\csharp-studies\\EmailValidation\\EmailValidation.csproj": {}
+    "/home/fernando/Documentos/programming-studies/csharp-studies/EmailValidation/EmailValidation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\UBS\\Desktop\\nando\\csharp-studies\\EmailValidation\\EmailValidation.csproj": {
+    "/home/fernando/Documentos/programming-studies/csharp-studies/EmailValidation/EmailValidation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UBS\\Desktop\\nando\\csharp-studies\\EmailValidation\\EmailValidation.csproj",
+        "projectUniqueName": "/home/fernando/Documentos/programming-studies/csharp-studies/EmailValidation/EmailValidation.csproj",
         "projectName": "EmailValidation",
-        "projectPath": "C:\\Users\\UBS\\Desktop\\nando\\csharp-studies\\EmailValidation\\EmailValidation.csproj",
-        "packagesPath": "C:\\Users\\UBS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UBS\\Desktop\\nando\\csharp-studies\\EmailValidation\\obj\\",
+        "projectPath": "/home/fernando/Documentos/programming-studies/csharp-studies/EmailValidation/EmailValidation.csproj",
+        "packagesPath": "/home/fernando/.nuget/packages/",
+        "outputPath": "/home/fernando/Documentos/programming-studies/csharp-studies/EmailValidation/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\UBS\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/fernando/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }
