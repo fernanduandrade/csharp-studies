@@ -5,8 +5,9 @@ namespace OOP
 {
     public class Book
     {
-        public Book()
+        public Book(string name)
         {
+            _name = name;
             grades = new List<double>();
         } 
         public void AddGrade(double grade)
@@ -14,26 +15,26 @@ namespace OOP
             grades.Add(grade);
         }
 
-        public void ShowStatistics()
+        public Statistics GetStatistics()
         {
-            double result = 0.0;
-            double highGrade = double.MaxValue;
-            double lowGrade = double.MinValue;
+            Statistics result = new Statistics();
+            result.Average = 0.0;
+            result.Max = double.MinValue;
+            result.Low = double.MaxValue;
 
-            foreach(double number in grades)
+            foreach(var grade in grades)
             {
-                highGrade = Math.Min(number, highGrade);
-                lowGrade = Math.Min(number, lowGrade);
-                result += number;
+                result.Max = Math.Max(grade, result.Max);
+                result.Low = Math.Min(grade, result.Low);
+                result.Average += grade;
             }
 
-            result /= grades.Count;
+            result.Average /= grades.Count;
 
-            Console.WriteLine($"The lowest grade is {lowGrade}");
-            Console.WriteLine($"The highest grade is {highGrade}");
-            Console.WriteLine($"The average grade is {result:N1}");
+            return result;
         }
 
         private List<double> grades;
+        private string _name {get;set;}
     }
 }
