@@ -1,0 +1,76 @@
+using System;
+using Xunit;
+
+namespace OOP.Test
+{
+    public class TypeTest
+    {
+        [Fact]
+        public void TestGetInt()
+        {
+            int x = GetInt();
+            SetInt(ref x);
+            Assert.Equal(42, x);
+        }
+
+        [Fact]
+        public void StringBehavior()
+        {
+            string name = "Fernando";
+            string upper = MakeUpperCase(name);
+
+            Assert.Equal("Fernando", name);
+            Assert.Equal("FERNANDO", upper);
+        }
+
+        private string MakeUpperCase(string name)
+        {
+            return name.ToUpper();
+        }
+
+        [Fact] 
+        public void TestSetBookName()
+        {
+            Book book1 = GetBook("Fernando");
+            GetBookSetName(ref book1, "Andrade");
+
+            Assert.Equal("Fernando", book1._Name);
+        }
+        [Fact]
+        public void TestTypeObject()
+        {
+            Book book01 = GetBook("teste");
+            Book book02 = GetBook("teste02");
+
+            Assert.Equal(typeof(Book), book01.GetType());
+        }
+
+        [Fact]
+        public void TestValueReference()
+        {
+            Book book1 = GetBook("fernnado");
+            var book2 = book1;
+
+            Assert.Same(book1, book2);
+            Assert.True(object.ReferenceEquals(book1, book2));
+        }
+        public void GetBookSetName(ref Book book, string name)
+        {
+            Book bookTest = new Book(name);
+        }
+        Book GetBook(string name)
+        {
+            return new Book(name);
+        }
+
+        private void SetInt(ref int z)
+        {
+            z = 42;
+        }
+
+        private int GetInt()
+        {
+            return 3;
+        }
+    }
+}

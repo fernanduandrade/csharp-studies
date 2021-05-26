@@ -7,7 +7,7 @@ namespace OOP
     {
         public Book(string name)
         {
-            _name = name;
+            _Name = name;
             grades = new List<double>();
         } 
         public void AddGrade(double grade)
@@ -35,6 +35,6 @@ namespace OOP
         }
 
         private List<double> grades;
-        private string _name {get;set;}
+        public string _Name {get;set;}
     }
 }
