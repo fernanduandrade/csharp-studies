@@ -10,18 +10,21 @@ namespace OOP.Test
         {   
             // Arrange
             Book book = new Book("Teste");
-            book.AddGrade(10.0);
-            book.AddGrade(11.0);
-            book.AddGrade(12.0);
+            book.AddGrade(80.0);
+            book.AddGrade(70.0);
+            book.AddGrade(60.0);
 
             // Act
             var result = book.GetStatistics();
 
             // Assert
 
-            Assert.Equal(11.0, result.Average, 1);
-            Assert.Equal(12.0, result.Max, 1);
-            Assert.Equal(10.0, result.Low, 1);
+            Assert.Equal(70.0, result.Average, 1);
+            Assert.Equal(80.0, result.Max, 1);
+            Assert.Equal(60.0, result.Low, 1);
+            Assert.Equal('C', result.Letter);
         }
+
+     
     }
 }

@@ -5,5 +5,6 @@ namespace OOP
         public double Average;
         public double Low;
         public double Max;
+        public char Letter;
     }
 }
