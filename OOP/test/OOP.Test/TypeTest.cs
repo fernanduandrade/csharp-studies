@@ -3,8 +3,23 @@ using Xunit;
 
 namespace OOP.Test
 {
+    public delegate string WriteLogDelegate(string logMessage);
     public class TypeTest
     {
+        [Fact]
+        public void WriteLogDelegateCanPointToMethod()
+        {
+            WriteLogDelegate log;
+            log = ReturnMessage;
+            var result = log("Oi");
+            Assert.Equal("Oi", result);
+        }
+
+        string ReturnMessage(string message)
+        {
+            return message;
+        }
+
         [Fact]
         public void TestGetInt()
         {
@@ -31,36 +46,36 @@ namespace OOP.Test
         [Fact] 
         public void TestSetBookName()
         {
-            Book book1 = GetBook("Fernando");
+            InMemoryBook book1 = GetBook("Fernando");
             GetBookSetName(ref book1, "Andrade");
 
-            Assert.Equal("Fernando", book1._Name);
+            Assert.Equal("Fernando", book1.Name);
         }
         [Fact]
         public void TestTypeObject()
         {
-            Book book01 = GetBook("teste");
-            Book book02 = GetBook("teste02");
+            InMemoryBook book01 = GetBook("teste");
+            InMemoryBook book02 = GetBook("teste02");
 
-            Assert.Equal(typeof(Book), book01.GetType());
+            Assert.Equal(typeof(InMemoryBook), book01.GetType());
         }
 
         [Fact]
         public void TestValueReference()
         {
-            Book book1 = GetBook("fernnado");
+            InMemoryBook book1 = GetBook("fernnado");
             var book2 = book1;
 
             Assert.Same(book1, book2);
             Assert.True(object.ReferenceEquals(book1, book2));
         }
-        public void GetBookSetName(ref Book book, string name)
+        public void GetBookSetName(ref InMemoryBook book, string name)
         {
-            Book bookTest = new Book(name);
+            InMemoryBook bookTest = new InMemoryBook(name);
         }
-        Book GetBook(string name)
+        InMemoryBook GetBook(string name)
         {
-            return new Book(name);
+            return new InMemoryBook(name);
         }
 
         private void SetInt(ref int z)

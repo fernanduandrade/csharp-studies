@@ -9,7 +9,7 @@ namespace OOP.Test
         public void BookCalculateStatistics()
         {   
             // Arrange
-            Book book = new Book("Teste");
+            InMemoryBook book = new InMemoryBook("Teste");
             book.AddGrade(80.0);
             book.AddGrade(70.0);
             book.AddGrade(60.0);
