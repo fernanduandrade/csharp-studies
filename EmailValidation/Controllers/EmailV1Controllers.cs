@@ -5,13 +5,11 @@ using EmailValidation.Models;
 using EmailValidation.Dtos;
 using System.Collections.Generic;
 using System;
-using Newtonsoft.Json;
-using System.Linq;
 
 namespace EmailValidation.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("/mail/validation/v1")]
     public class EmailV1Controllers : ControllerBase
     {
         private readonly IEmailV1Repository _emailV1Repository1;
@@ -49,6 +47,10 @@ namespace EmailValidation.Controllers
 
             };
 
+            
+
+            await _emailV1Repository1.Add(emailV1);
+            
             var result = new {
                 status = "ok", 
                 code = 200, 
@@ -57,8 +59,6 @@ namespace EmailValidation.Controllers
                     new {email_address = emailV1.Email,domain = emailV1.Domain,valid_syntax = emailV1.Valid_syntax}
                 }
             };
-
-            await _emailV1Repository1.Add(emailV1);
             return Ok(result);
         }
 

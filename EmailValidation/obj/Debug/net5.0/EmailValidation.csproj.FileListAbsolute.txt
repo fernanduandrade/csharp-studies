@@ -115,3 +115,4 @@ C:/Users/UBS/Desktop/nando/csharp-studies/EmailValidation/obj/Debug/net5.0/Email
 /home/fernando/Documentos/programming-studies/csharp-studies/EmailValidation/obj/Debug/net5.0/EmailValidation.RazorTargetAssemblyInfo.cache
 /home/fernando/Documentos/programming-studies/csharp-studies/EmailValidation/obj/Debug/net5.0/EmailValidation.csproj.CopyComplete
 /home/fernando/Documentos/programming-studies/csharp-studies/EmailValidation/obj/Debug/net5.0/EmailValidation.genruntimeconfig.cache
+/home/fernando/Documentos/programming-studies/csharp-studies/EmailValidation/bin/Debug/net5.0/RestSharp.dll

@@ -32,9 +32,11 @@ namespace EmailValidation
 
             services.AddDbContext<DataContext>(options => options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped<IDataContext>(provider => provider.GetRequiredService<DataContext>());
+            services.AddScoped<IEmailV1Repository, EmailV1Repository>();
+            
             services.AddDbContext<DataContext2>(options => options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped<IDataContext2>(provider => provider.GetRequiredService<DataContext2>());
-            services.AddScoped<IEmailV1Repository, EmailV1Repository>();
+            services.AddScoped<IEmailV2Repository, EmailV2Repository>();
             
             services.AddControllers();
             services.AddSwaggerGen(c =>
