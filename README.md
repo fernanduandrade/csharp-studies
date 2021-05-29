@@ -1,2 +1,3 @@
 # csharp-studies
-Coleção de estudos em C#
+
+Minha coleção de estudos em C#
