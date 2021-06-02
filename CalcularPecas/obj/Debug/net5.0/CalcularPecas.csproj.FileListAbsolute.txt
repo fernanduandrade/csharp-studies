@@ -1,0 +1,16 @@
+/home/fernando/Documentos/programming-studies/csharp-studies/CalcularPecas/bin/Debug/net5.0/CalcularPecas
+/home/fernando/Documentos/programming-studies/csharp-studies/CalcularPecas/bin/Debug/net5.0/CalcularPecas.deps.json
+/home/fernando/Documentos/programming-studies/csharp-studies/CalcularPecas/bin/Debug/net5.0/CalcularPecas.runtimeconfig.json
+/home/fernando/Documentos/programming-studies/csharp-studies/CalcularPecas/bin/Debug/net5.0/CalcularPecas.runtimeconfig.dev.json
+/home/fernando/Documentos/programming-studies/csharp-studies/CalcularPecas/bin/Debug/net5.0/CalcularPecas.dll
+/home/fernando/Documentos/programming-studies/csharp-studies/CalcularPecas/bin/Debug/net5.0/ref/CalcularPecas.dll
+/home/fernando/Documentos/programming-studies/csharp-studies/CalcularPecas/bin/Debug/net5.0/CalcularPecas.pdb
+/home/fernando/Documentos/programming-studies/csharp-studies/CalcularPecas/obj/Debug/net5.0/CalcularPecas.csprojAssemblyReference.cache
+/home/fernando/Documentos/programming-studies/csharp-studies/CalcularPecas/obj/Debug/net5.0/CalcularPecas.GeneratedMSBuildEditorConfig.editorconfig
+/home/fernando/Documentos/programming-studies/csharp-studies/CalcularPecas/obj/Debug/net5.0/CalcularPecas.AssemblyInfoInputs.cache
+/home/fernando/Documentos/programming-studies/csharp-studies/CalcularPecas/obj/Debug/net5.0/CalcularPecas.AssemblyInfo.cs
+/home/fernando/Documentos/programming-studies/csharp-studies/CalcularPecas/obj/Debug/net5.0/CalcularPecas.csproj.CoreCompileInputs.cache
+/home/fernando/Documentos/programming-studies/csharp-studies/CalcularPecas/obj/Debug/net5.0/CalcularPecas.dll
+/home/fernando/Documentos/programming-studies/csharp-studies/CalcularPecas/obj/Debug/net5.0/ref/CalcularPecas.dll
+/home/fernando/Documentos/programming-studies/csharp-studies/CalcularPecas/obj/Debug/net5.0/CalcularPecas.pdb
+/home/fernando/Documentos/programming-studies/csharp-studies/CalcularPecas/obj/Debug/net5.0/CalcularPecas.genruntimeconfig.cache
