@@ -1,0 +1,16 @@
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaCondicional/bin/Debug/net5.0/EstruturaCondicional
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaCondicional/bin/Debug/net5.0/EstruturaCondicional.deps.json
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaCondicional/bin/Debug/net5.0/EstruturaCondicional.runtimeconfig.json
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaCondicional/bin/Debug/net5.0/EstruturaCondicional.runtimeconfig.dev.json
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaCondicional/bin/Debug/net5.0/EstruturaCondicional.dll
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaCondicional/bin/Debug/net5.0/ref/EstruturaCondicional.dll
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaCondicional/bin/Debug/net5.0/EstruturaCondicional.pdb
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaCondicional/obj/Debug/net5.0/EstruturaCondicional.csprojAssemblyReference.cache
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaCondicional/obj/Debug/net5.0/EstruturaCondicional.GeneratedMSBuildEditorConfig.editorconfig
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaCondicional/obj/Debug/net5.0/EstruturaCondicional.AssemblyInfoInputs.cache
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaCondicional/obj/Debug/net5.0/EstruturaCondicional.AssemblyInfo.cs
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaCondicional/obj/Debug/net5.0/EstruturaCondicional.csproj.CoreCompileInputs.cache
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaCondicional/obj/Debug/net5.0/EstruturaCondicional.dll
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaCondicional/obj/Debug/net5.0/ref/EstruturaCondicional.dll
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaCondicional/obj/Debug/net5.0/EstruturaCondicional.pdb
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaCondicional/obj/Debug/net5.0/EstruturaCondicional.genruntimeconfig.cache
