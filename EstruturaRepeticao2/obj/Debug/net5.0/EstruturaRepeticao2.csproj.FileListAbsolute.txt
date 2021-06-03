@@ -1,0 +1,16 @@
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaRepeticao2/bin/Debug/net5.0/EstruturaRepeticao2
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaRepeticao2/bin/Debug/net5.0/EstruturaRepeticao2.deps.json
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaRepeticao2/bin/Debug/net5.0/EstruturaRepeticao2.runtimeconfig.json
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaRepeticao2/bin/Debug/net5.0/EstruturaRepeticao2.runtimeconfig.dev.json
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaRepeticao2/bin/Debug/net5.0/EstruturaRepeticao2.dll
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaRepeticao2/bin/Debug/net5.0/ref/EstruturaRepeticao2.dll
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaRepeticao2/bin/Debug/net5.0/EstruturaRepeticao2.pdb
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaRepeticao2/obj/Debug/net5.0/EstruturaRepeticao2.csprojAssemblyReference.cache
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaRepeticao2/obj/Debug/net5.0/EstruturaRepeticao2.GeneratedMSBuildEditorConfig.editorconfig
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaRepeticao2/obj/Debug/net5.0/EstruturaRepeticao2.AssemblyInfoInputs.cache
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaRepeticao2/obj/Debug/net5.0/EstruturaRepeticao2.AssemblyInfo.cs
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaRepeticao2/obj/Debug/net5.0/EstruturaRepeticao2.csproj.CoreCompileInputs.cache
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaRepeticao2/obj/Debug/net5.0/EstruturaRepeticao2.dll
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaRepeticao2/obj/Debug/net5.0/ref/EstruturaRepeticao2.dll
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaRepeticao2/obj/Debug/net5.0/EstruturaRepeticao2.pdb
+/home/fernando/Documentos/programming-studies/csharp-studies/EstruturaRepeticao2/obj/Debug/net5.0/EstruturaRepeticao2.genruntimeconfig.cache
