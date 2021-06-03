@@ -9,13 +9,10 @@ namespace EstruturaRepeticao
 
             int password = 2002;
             
-
-            
             while (true)
             {
                 Console.WriteLine("Digite a senha");
                 int passwordInput = int.Parse(Console.ReadLine());
-                Console.WriteLine();
 
                 if(passwordInput != password)
                 {

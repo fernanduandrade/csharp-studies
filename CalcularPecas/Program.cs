@@ -6,7 +6,8 @@ namespace CalcularPecas
     {
         static void Main(string[] args)
         {
-            // Passe por argumentos os valores e quantidades de peça 1 e 2  
+            // Passe por argumentos a quantidade e preço das peças 1 e 2  
+
             float peca1Quantidade = float.Parse(args[0]);
             float peca1Preco = float.Parse(args[1]);   
             float peca2Quantidade = float.Parse(args[2]);
