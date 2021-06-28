@@ -6,25 +6,27 @@ namespace EstruturaRepeticao
     {
         static void Main(string[] args)
         {
+            int alcool = 0;
+            int gasolina = 0;
+            int dissel = 0;
 
-            int password = 2002;
-            
-            while (true)
+            int input = int.Parse(Console.ReadLine());
+
+            while(input != 4)
             {
-                Console.WriteLine("Digite a senha");
-                int passwordInput = int.Parse(Console.ReadLine());
+                if(input == 1) alcool += 1;
+                if(input == 2) gasolina += 1;
+                if(input == 3) dissel += 1;
 
-                if(passwordInput != password)
-                {
-                    Console.WriteLine("Senha Invalida");
-                    Console.WriteLine();
-                }
-                else 
-                {
-                    Console.WriteLine("Acesso Permitido");
-                    break;
-                }
+                input = int.Parse(Console.ReadLine());
             }
+
+            Console.WriteLine("Muito Obrigado!");
+            Console.WriteLine($"Alcool: {alcool}");
+            Console.WriteLine($"Gasolina:  {gasolina}");
+            Console.WriteLine($"Dissel: {dissel}");
+
+            
         }
     }
 }
