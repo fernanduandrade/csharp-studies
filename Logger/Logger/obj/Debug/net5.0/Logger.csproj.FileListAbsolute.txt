@@ -1,0 +1,16 @@
+C:\Users\Fernando\Desktop\Logger\Logger\bin\Debug\net5.0\Logger.exe
+C:\Users\Fernando\Desktop\Logger\Logger\bin\Debug\net5.0\Logger.deps.json
+C:\Users\Fernando\Desktop\Logger\Logger\bin\Debug\net5.0\Logger.runtimeconfig.json
+C:\Users\Fernando\Desktop\Logger\Logger\bin\Debug\net5.0\Logger.runtimeconfig.dev.json
+C:\Users\Fernando\Desktop\Logger\Logger\bin\Debug\net5.0\Logger.dll
+C:\Users\Fernando\Desktop\Logger\Logger\bin\Debug\net5.0\ref\Logger.dll
+C:\Users\Fernando\Desktop\Logger\Logger\bin\Debug\net5.0\Logger.pdb
+C:\Users\Fernando\Desktop\Logger\Logger\obj\Debug\net5.0\Logger.csprojAssemblyReference.cache
+C:\Users\Fernando\Desktop\Logger\Logger\obj\Debug\net5.0\Logger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fernando\Desktop\Logger\Logger\obj\Debug\net5.0\Logger.AssemblyInfoInputs.cache
+C:\Users\Fernando\Desktop\Logger\Logger\obj\Debug\net5.0\Logger.AssemblyInfo.cs
+C:\Users\Fernando\Desktop\Logger\Logger\obj\Debug\net5.0\Logger.csproj.CoreCompileInputs.cache
+C:\Users\Fernando\Desktop\Logger\Logger\obj\Debug\net5.0\Logger.dll
+C:\Users\Fernando\Desktop\Logger\Logger\obj\Debug\net5.0\ref\Logger.dll
+C:\Users\Fernando\Desktop\Logger\Logger\obj\Debug\net5.0\Logger.pdb
+C:\Users\Fernando\Desktop\Logger\Logger\obj\Debug\net5.0\Logger.genruntimeconfig.cache
