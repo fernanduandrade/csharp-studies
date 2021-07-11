@@ -1,0 +1,16 @@
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Banquinho/bin/Debug/net5.0/Banquinho
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Banquinho/bin/Debug/net5.0/Banquinho.deps.json
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Banquinho/bin/Debug/net5.0/Banquinho.runtimeconfig.json
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Banquinho/bin/Debug/net5.0/Banquinho.runtimeconfig.dev.json
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Banquinho/bin/Debug/net5.0/Banquinho.dll
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Banquinho/bin/Debug/net5.0/ref/Banquinho.dll
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Banquinho/bin/Debug/net5.0/Banquinho.pdb
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Banquinho/obj/Debug/net5.0/Banquinho.csproj.AssemblyReference.cache
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Banquinho/obj/Debug/net5.0/Banquinho.GeneratedMSBuildEditorConfig.editorconfig
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Banquinho/obj/Debug/net5.0/Banquinho.AssemblyInfoInputs.cache
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Banquinho/obj/Debug/net5.0/Banquinho.AssemblyInfo.cs
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Banquinho/obj/Debug/net5.0/Banquinho.csproj.CoreCompileInputs.cache
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Banquinho/obj/Debug/net5.0/Banquinho.dll
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Banquinho/obj/Debug/net5.0/ref/Banquinho.dll
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Banquinho/obj/Debug/net5.0/Banquinho.pdb
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Banquinho/obj/Debug/net5.0/Banquinho.genruntimeconfig.cache
