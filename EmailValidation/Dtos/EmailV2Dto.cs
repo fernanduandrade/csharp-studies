@@ -1,6 +1,6 @@
 namespace EmailValidation.Dtos
 {
-    public class UpdateEmailV2Dto
+    public class EmailV2Dto
     {
         public string Email_Address {get; set;}
         public string Domain {get; set;}

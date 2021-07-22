@@ -1,12 +1,15 @@
 using System;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using EmailValidation.Utils;
 using EmailValidation.Builders;
 using EmailValidation.Models;
 using EmailValidation.Dtos;
 using System.Collections.Generic;
 using EmailValidation.Repositories;
 using EmailValidation.Services;
+using System.Net;
+using System.Net.Http;
 
 namespace EmailValidation.Controllers
 {
@@ -38,9 +41,9 @@ namespace EmailValidation.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> CreateEmailV2(CreateEmailsv2Dto createEmailsv2Dto) 
+        public async Task<ActionResult> CreateEmailV2(EmailV2Dto emailV2Dto) 
         {
-            EvaService eva = new EvaService(createEmailsv2Dto.Email_Address);
+            EvaService eva = new EvaService(emailV2Dto.Email_Address);
             
             dynamic evaDTO = eva.EvaRequest();
 
@@ -59,6 +62,8 @@ namespace EmailValidation.Controllers
                     new {data = emailv2}
                 }
             };
+            GenerateLog logger = new GenerateLog();
+            logger.WriteLog(new HttpResponseMessage(HttpStatusCode.OK).ToString());
             return Ok(result);
 
         }
@@ -71,20 +76,20 @@ namespace EmailValidation.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> UpdateEmailV2(int id, UpdateEmailV2Dto updateEmailV2Dto)
+        public async Task<ActionResult> UpdateEmailV2(int id, EmailV2Dto emailV2Dto)
         {
             EmailV2 email = new()
             {
                 Id = id,
-                Email_Address = updateEmailV2Dto.Email_Address,
-                Domain = updateEmailV2Dto.Domain,
-                Valid_Syntax = updateEmailV2Dto.Valid_Syntax,
-                Disposable = updateEmailV2Dto.Disposable,
-                WebMail = updateEmailV2Dto.WebMail,
-                Deliverable = updateEmailV2Dto.Deliverable,
-                Catch_All = updateEmailV2Dto.Catch_All,
-                Gibberish = updateEmailV2Dto.Gibberish,
-                Spam = updateEmailV2Dto.Spam,
+                Email_Address = emailV2Dto.Email_Address,
+                Domain = emailV2Dto.Domain,
+                Valid_Syntax = emailV2Dto.Valid_Syntax,
+                Disposable = emailV2Dto.Disposable,
+                WebMail = emailV2Dto.WebMail,
+                Deliverable = emailV2Dto.Deliverable,
+                Catch_All = emailV2Dto.Catch_All,
+                Gibberish = emailV2Dto.Gibberish,
+                Spam = emailV2Dto.Spam,
                 Created_At = DateTime.Now
             };
 

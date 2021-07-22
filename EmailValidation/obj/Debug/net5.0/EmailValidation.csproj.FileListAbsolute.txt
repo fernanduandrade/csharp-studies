@@ -76,7 +76,6 @@ C:/Users/UBS/Desktop/nando/csharp-studies/EmailValidation/obj/Debug/net5.0/Email
 C:/Users/UBS/Desktop/nando/csharp-studies/EmailValidation/obj/Debug/net5.0/ref/EmailValidation.dll
 C:/Users/UBS/Desktop/nando/csharp-studies/EmailValidation/obj/Debug/net5.0/EmailValidation.pdb
 C:/Users/UBS/Desktop/nando/csharp-studies/EmailValidation/obj/Debug/net5.0/EmailValidation.genruntimeconfig.cache
-/home/fernando/Documentos/programming-studies/csharp-studies/EmailValidation/obj/Debug/net5.0/EmailValidation.csprojAssemblyReference.cache
 /home/fernando/Documentos/programming-studies/csharp-studies/EmailValidation/obj/Debug/net5.0/EmailValidation.GeneratedMSBuildEditorConfig.editorconfig
 /home/fernando/Documentos/programming-studies/csharp-studies/EmailValidation/obj/Debug/net5.0/EmailValidation.AssemblyInfoInputs.cache
 /home/fernando/Documentos/programming-studies/csharp-studies/EmailValidation/obj/Debug/net5.0/EmailValidation.AssemblyInfo.cs
@@ -116,3 +115,4 @@ C:/Users/UBS/Desktop/nando/csharp-studies/EmailValidation/obj/Debug/net5.0/Email
 /home/fernando/Documentos/programming-studies/csharp-studies/EmailValidation/obj/Debug/net5.0/EmailValidation.csproj.CopyComplete
 /home/fernando/Documentos/programming-studies/csharp-studies/EmailValidation/obj/Debug/net5.0/EmailValidation.genruntimeconfig.cache
 /home/fernando/Documentos/programming-studies/csharp-studies/EmailValidation/bin/Debug/net5.0/RestSharp.dll
+/home/fernando/Documentos/programming-studies/csharp-studies/EmailValidation/obj/Debug/net5.0/EmailValidation.csproj.AssemblyReference.cache
