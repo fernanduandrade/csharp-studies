@@ -1140,11 +1140,7 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD:EmailValidation/EmailValidation/obj/project.assets.json
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
->>>>>>> bb58f0261a29dc8cee9b373d5d0726a7d68ba465:EmailValidation/obj/project.assets.json
       }
     }
   }
