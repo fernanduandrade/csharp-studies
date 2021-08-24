@@ -14,6 +14,7 @@ namespace EmailValidation.Controllers
             {
                 status = "ok",
                 code = 200,
+                error = false,
                 results = new[] {
                     new{message = "Servidor executando na porta 5000"}
                 }
