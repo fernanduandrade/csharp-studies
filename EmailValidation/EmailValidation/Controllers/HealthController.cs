@@ -7,6 +7,7 @@ namespace EmailValidation.Controllers
     [Route("/health")]
     public class HealthController : ControllerBase
     {
+        [HttpGet]
         public ActionResult Health()
         {
             var result = new

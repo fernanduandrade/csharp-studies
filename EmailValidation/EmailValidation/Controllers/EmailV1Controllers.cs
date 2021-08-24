@@ -36,13 +36,13 @@ namespace EmailValidation.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> CreateEmailV1(CreateEmailV1Dto createEmailV1Dto)
+        public async Task<ActionResult> CreateEmailV1(EmailV1Dto emailV1Dto)
         {
             EmailV1 emailV1 = new()
             {
-                Email = createEmailV1Dto.Email,
-                Domain = createEmailV1Dto.Domain,
-                Valid_syntax = createEmailV1Dto.Valid_syntax,
+                Email = emailV1Dto.Email,
+                Domain = emailV1Dto.Domain,
+                Valid_syntax = emailV1Dto.Valid_syntax,
                 Created_At = DateTime.Now
 
             };
@@ -70,14 +70,14 @@ namespace EmailValidation.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> UpdateEmailV1(int id, UpdateEmailV1Dto updateEmailV1Dto)
+        public async Task<ActionResult> UpdateEmailV1(int id, EmailV1Dto emailV1Dto)
         {
             EmailV1 email = new()
             {
                 Id = id,
-                Email = updateEmailV1Dto.Email,
-                Domain = updateEmailV1Dto.Domain,
-                Valid_syntax = updateEmailV1Dto.Valid_syntax,
+                Email = emailV1Dto.Email,
+                Domain = emailV1Dto.Domain,
+                Valid_syntax = emailV1Dto.Valid_syntax,
                 Created_At = DateTime.Now
             };
 

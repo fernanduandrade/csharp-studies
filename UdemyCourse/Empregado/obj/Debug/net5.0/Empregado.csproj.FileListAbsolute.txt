@@ -1,0 +1,16 @@
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Empregado/bin/Debug/net5.0/Empregado
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Empregado/bin/Debug/net5.0/Empregado.deps.json
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Empregado/bin/Debug/net5.0/Empregado.runtimeconfig.json
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Empregado/bin/Debug/net5.0/Empregado.runtimeconfig.dev.json
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Empregado/bin/Debug/net5.0/Empregado.dll
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Empregado/bin/Debug/net5.0/ref/Empregado.dll
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Empregado/bin/Debug/net5.0/Empregado.pdb
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Empregado/obj/Debug/net5.0/Empregado.csproj.AssemblyReference.cache
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Empregado/obj/Debug/net5.0/Empregado.GeneratedMSBuildEditorConfig.editorconfig
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Empregado/obj/Debug/net5.0/Empregado.AssemblyInfoInputs.cache
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Empregado/obj/Debug/net5.0/Empregado.AssemblyInfo.cs
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Empregado/obj/Debug/net5.0/Empregado.csproj.CoreCompileInputs.cache
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Empregado/obj/Debug/net5.0/Empregado.dll
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Empregado/obj/Debug/net5.0/ref/Empregado.dll
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Empregado/obj/Debug/net5.0/Empregado.pdb
+/home/fernando/Documentos/programming-studies/csharp-studies/UdemyCourse/Empregado/obj/Debug/net5.0/Empregado.genruntimeconfig.cache
