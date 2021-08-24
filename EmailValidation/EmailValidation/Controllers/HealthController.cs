@@ -15,7 +15,7 @@ namespace EmailValidation.Controllers
                 status = "ok",
                 code = 200,
                 results = new[] {
-                    new{message = "Servidor executando na porta 8080"}
+                    new{message = "Servidor executando na porta 5000"}
                 }
             };
 
