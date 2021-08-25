@@ -19,6 +19,9 @@ namespace EmailValidation.Controllers
                 }
             };
 
+            if (string.IsNullOrEmpty(result.status))
+                return NotFound();
+
             return Ok(result);
         }
     }
