@@ -22,7 +22,7 @@ namespace EmailValidation.Controllers
         public async Task<ActionResult<EmailV1>> GetEmail(int id)
         {
             var emailv1 = await _emailV1Repository1.Get(id);
-            if(emailv1 == null)
+            if(string.IsNullOrEmpty(emailv1.Id.ToString()))
                 return NotFound();
 
             return Ok(emailv1);
