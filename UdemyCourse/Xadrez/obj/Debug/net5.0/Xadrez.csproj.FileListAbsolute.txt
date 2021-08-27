@@ -1,0 +1,16 @@
+/home/fernando/Documentos/csharp-studies/UdemyCourse/Xadrez/bin/Debug/net5.0/Xadrez
+/home/fernando/Documentos/csharp-studies/UdemyCourse/Xadrez/bin/Debug/net5.0/Xadrez.deps.json
+/home/fernando/Documentos/csharp-studies/UdemyCourse/Xadrez/bin/Debug/net5.0/Xadrez.runtimeconfig.json
+/home/fernando/Documentos/csharp-studies/UdemyCourse/Xadrez/bin/Debug/net5.0/Xadrez.runtimeconfig.dev.json
+/home/fernando/Documentos/csharp-studies/UdemyCourse/Xadrez/bin/Debug/net5.0/Xadrez.dll
+/home/fernando/Documentos/csharp-studies/UdemyCourse/Xadrez/bin/Debug/net5.0/ref/Xadrez.dll
+/home/fernando/Documentos/csharp-studies/UdemyCourse/Xadrez/bin/Debug/net5.0/Xadrez.pdb
+/home/fernando/Documentos/csharp-studies/UdemyCourse/Xadrez/obj/Debug/net5.0/Xadrez.csproj.AssemblyReference.cache
+/home/fernando/Documentos/csharp-studies/UdemyCourse/Xadrez/obj/Debug/net5.0/Xadrez.GeneratedMSBuildEditorConfig.editorconfig
+/home/fernando/Documentos/csharp-studies/UdemyCourse/Xadrez/obj/Debug/net5.0/Xadrez.AssemblyInfoInputs.cache
+/home/fernando/Documentos/csharp-studies/UdemyCourse/Xadrez/obj/Debug/net5.0/Xadrez.AssemblyInfo.cs
+/home/fernando/Documentos/csharp-studies/UdemyCourse/Xadrez/obj/Debug/net5.0/Xadrez.csproj.CoreCompileInputs.cache
+/home/fernando/Documentos/csharp-studies/UdemyCourse/Xadrez/obj/Debug/net5.0/Xadrez.dll
+/home/fernando/Documentos/csharp-studies/UdemyCourse/Xadrez/obj/Debug/net5.0/ref/Xadrez.dll
+/home/fernando/Documentos/csharp-studies/UdemyCourse/Xadrez/obj/Debug/net5.0/Xadrez.pdb
+/home/fernando/Documentos/csharp-studies/UdemyCourse/Xadrez/obj/Debug/net5.0/Xadrez.genruntimeconfig.cache
