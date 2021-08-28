@@ -8,8 +8,8 @@ namespace Xadrez
         static void Main(string[] args)
         {
             Tabuleiro tabuleiro = new Tabuleiro(8, 8);
-            
 
+            Console.WriteLine("testando cache");
             Console.ReadLine();
         }
     }
