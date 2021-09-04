@@ -12,5 +12,10 @@ namespace tabuleiro {
             this.cor = cor;
             this.quantidadeMovimento = 0;
         }
+
+        public void IncrementarMovimento()
+        {
+            quantidadeMovimento++;
+        }
     }
 }
