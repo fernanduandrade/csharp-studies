@@ -7,7 +7,7 @@ namespace xadrez {
         public Tabuleiro tabuleiro {get; private set;}
         private int Turno;
         private Cor JogadorAtual;
-
+        public bool Terminada{get; private set; }
 
         public PartidaXadrez() {
             tabuleiro = new Tabuleiro(8, 8);
