@@ -31,17 +31,18 @@ namespace Xadrez
                         Console.WriteLine();
                         Console.Write("Destino: ");
                         Posicao destino = Tela.LerPosicaoXadrez().ToPosicao();
-
+                        partida.ValidarPosicaoDestino(origem, destino);
                         partida.RealizarJogada(origem, destino);
                     } catch(TabuleiroException erro) {
                         Console.WriteLine(erro.Message);
+                        Console.ReadLine();
                     }
                     
                 }
 
             }
-            catch (TabuleiroException e) {
-                Console.WriteLine(e.Message);
+            catch (TabuleiroException error) {
+                Console.WriteLine(error.Message);
             }
             
             Console.ReadLine();
