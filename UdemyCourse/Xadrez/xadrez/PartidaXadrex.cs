@@ -6,7 +6,7 @@ namespace xadrez {
     {
         public Tabuleiro tabuleiro {get; private set;}
         public int Turno {get; private set;}
-        public Cor JogadorAtual {get; set;}
+        public Cor JogadorAtual {get; private set;}
         public bool Terminada{get; private set; }
         private HashSet<Peca> pecas;
         private HashSet<Peca> capturadas;
@@ -14,6 +14,7 @@ namespace xadrez {
         public PartidaXadrez() {
             tabuleiro = new Tabuleiro(8, 8);
             Turno = 1;
+            Terminada = false;
             pecas = new HashSet<Peca>();
             capturadas = new HashSet<Peca>();
             JogadorAtual = Cor.Branco;
@@ -38,7 +39,7 @@ namespace xadrez {
                 }
             }
 
-            aux.ExceptWith(PecasCapturadas(cor));
+            
             return aux;
         }
 
@@ -49,7 +50,7 @@ namespace xadrez {
                     aux.Add(x);
                 }
             }
-
+            aux.ExceptWith(PecasCapturadas(cor));
             return aux;
         }
 
@@ -99,12 +100,12 @@ namespace xadrez {
             ColocarNovaPeca('e', 2, new Torre(tabuleiro, Cor.Branco));
             ColocarNovaPeca('d', 1, new Rei(tabuleiro, Cor.Branco));
 
-            ColocarNovaPeca('c', 7, new Torre(tabuleiro, Cor.Branco));
-            ColocarNovaPeca('c', 8, new Torre(tabuleiro, Cor.Branco));
-            ColocarNovaPeca('d', 7, new Torre(tabuleiro, Cor.Branco));
-            ColocarNovaPeca('e', 7, new Torre(tabuleiro, Cor.Branco));
-            ColocarNovaPeca('e', 8, new Torre(tabuleiro, Cor.Branco));
-            ColocarNovaPeca('d', 8, new Rei(tabuleiro, Cor.Branco));
+            ColocarNovaPeca('c', 7, new Torre(tabuleiro, Cor.Preto));
+            ColocarNovaPeca('c', 8, new Torre(tabuleiro, Cor.Preto));
+            ColocarNovaPeca('d', 7, new Torre(tabuleiro, Cor.Preto));
+            ColocarNovaPeca('e', 7, new Torre(tabuleiro, Cor.Preto));
+            ColocarNovaPeca('e', 8, new Torre(tabuleiro, Cor.Preto));
+            ColocarNovaPeca('d', 8, new Rei(tabuleiro, Cor.Preto));
 
         }
     }
