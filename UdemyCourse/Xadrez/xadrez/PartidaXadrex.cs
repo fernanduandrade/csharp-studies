@@ -90,10 +90,11 @@ namespace xadrez {
                 for( int i = 0; i < tabuleiro.linhas; i++) {
                     for(int j = 0; j < tabuleiro.colunas; j++) {
                         if(mat[i,j]) {
+                            Posicao origem = x.posicao;
                             Posicao destino = new Posicao(i,j);
-                            Peca pecaCapturada = ExecutarMovimento(x.posicao, destino);
+                            Peca pecaCapturada = ExecutarMovimento(origem, destino);
                             bool testeXeque = EstarEmXeque(cor);
-                            DesfazerMovimento(x.posicao, destino, pecaCapturada);
+                            DesfazerMovimento(origem, destino, pecaCapturada);
 
                             if(!testeXeque) {
                                 return false;
