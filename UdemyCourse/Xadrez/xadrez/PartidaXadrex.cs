@@ -98,6 +98,19 @@ namespace xadrez {
                 DesfazerMovimento(origem, destino, pecaCapturada);
                 throw new TabuleiroException("Você não pode se colocar em xeque!");
             }
+            
+            Peca p = tabuleiro.peca(destino);
+
+            // jogada especial - promocao
+            if(p is Peao) {
+                if((p.cor == Cor.Branco && destino.linha == 0) || p.cor == Cor.Preto && destino.linha == 07) {
+                    p = tabuleiro.RemoverPeca(destino);
+                    pecas.Remove(p);
+                    Peca dama = new Dama(tabuleiro, p.cor);
+                    tabuleiro.ColocarPeca(dama, destino);
+                    pecas.Add(dama);
+                }
+            }
 
             if (EstarEmXeque(Adversario(JogadorAtual))) {
                 Xeque = true;
@@ -115,7 +128,6 @@ namespace xadrez {
             }
 
 
-            Peca p = tabuleiro.peca(destino);
             // Jogada En Passant            
             if(p is Peao &&(destino.linha == origem.linha - 2 || destino.linha == origem.linha + 2)) {
                 vulneravelEnPassant = p;
