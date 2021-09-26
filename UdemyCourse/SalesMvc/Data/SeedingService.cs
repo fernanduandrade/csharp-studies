@@ -22,6 +22,8 @@ namespace SalesMvc.Data
             {
                return;  // Já tem dados no db 
             }
+            else 
+            {
             Department d1 = new Department(1, "Computers");
             Department d2 = new Department(2, "Makeup");
 
@@ -34,6 +36,7 @@ namespace SalesMvc.Data
             _context.Department.AddRange(d1,d2);
             _context.Seller.AddRange(s1,s2);
             _context.SalesRecord.AddRange(sr1,sr2);
+            }
         
         }
         

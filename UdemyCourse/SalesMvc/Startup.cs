@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using SalesMvc.Data;
+using SalesMvc.Services;
 
 namespace SalesMvc
 {
@@ -32,6 +33,8 @@ namespace SalesMvc
                 builder => builder.MigrationsAssembly("SalesMvc")));
 
             services.AddScoped<SeedingService>();
+            services.AddScoped<SellerService>();
+            services.AddScoped<DepartmentService>();
             
         }
 
