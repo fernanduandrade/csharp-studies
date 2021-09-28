@@ -4,6 +4,7 @@ using SalesMvc.Models;
 using SalesMvc.Models.ViewModels;
 using SalesMvc.Services.Exceptions;
 using SalesMvc.Services;
+using System.Diagnostics;
 
 namespace SalesMvc.Controllers
 {
@@ -28,6 +29,12 @@ namespace SalesMvc.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Seller seller)
         {
+           if(!ModelState.IsValid)
+            {
+                var departments = _departmentService.FindAll();
+                var viewModel = new SellerFormViewModel {Seller = seller, Departments = departments};
+                return View(viewModel);
+            }
             _sellerService.Insert(seller);
             return RedirectToAction(nameof(Index));
         }
@@ -36,12 +43,12 @@ namespace SalesMvc.Controllers
         {
             if(id == null)
             {
-                return NotFound();
+                return RedirectToAction(nameof(Error), new {message = "Id not provided"});
             }
 
             var obj = _sellerService.FinById(id.Value);
             if(obj == null)
-                return NotFound();
+                return RedirectToAction(nameof(Error), new {message = "Id not found"});
             
             return View(obj);
         }
@@ -58,12 +65,12 @@ namespace SalesMvc.Controllers
         public IActionResult Details(int? id)
         {
             if(id == null)
-                return NotFound();
+                return RedirectToAction(nameof(Error), new {message = "Id not provided"});
 
             var obj = _sellerService.FinById(id.Value);
 
             if(obj == null)
-                return NotFound();
+                return RedirectToAction(nameof(Error), new {message = "Id not found"});
         
             return View(obj);
         }
@@ -72,12 +79,12 @@ namespace SalesMvc.Controllers
         {
             if(id == null)
             {
-                return NotFound();
+                return RedirectToAction(nameof(Error), new {message = "Id not provided"});
             }
 
             var obj = _sellerService.FinById(id.Value);
             if(obj ==null) 
-                return NotFound();
+                return RedirectToAction(nameof(Error), new {message = "Id not found"});
 
             List<Department> departments = _departmentService.FindAll();
 
@@ -89,9 +96,15 @@ namespace SalesMvc.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(int id, Seller seller)
         {
+            if(!ModelState.IsValid)
+            {
+                var departments = _departmentService.FindAll();
+                var viewModel = new SellerFormViewModel {Seller = seller, Departments = departments};
+                return View(viewModel);
+            }
             if(id != seller.Id)
             {
-                return BadRequest();
+                return RedirectToAction(nameof(Error), new {message = "Id doesn't match"});
             }
 
             try 
@@ -99,15 +112,27 @@ namespace SalesMvc.Controllers
                 _sellerService.Update(seller);
                 return RedirectToAction(nameof(Index));
             }
-            catch(NotFoundException)
+            catch(NotFoundException error)
             {
-                return NotFound();
+                return RedirectToAction(nameof(Error), new {message = error.Message});
             }
-            catch
+            catch(DbConcurrencyException error)
             {
-                return BadRequest();
+                return RedirectToAction(nameof(Error), new {message = error.Message});
             }
             
         }
+
+        public IActionResult Error(string message)
+        {
+            var viewModel = new ErrorViewModel
+            {
+                Message = message,
+                RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier
+            };
+
+            return View(viewModel);
+        }
+
     }
 }
