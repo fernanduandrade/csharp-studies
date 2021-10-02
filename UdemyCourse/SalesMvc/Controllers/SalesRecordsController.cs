@@ -47,5 +47,7 @@ namespace SalesMvc.Controllers
             var result = await _salesRecordService.FindByDateGroupingAsync(minDate, maxDate);
             return View(result);
         }
+
+        public IActionResult Create() => View();
     }
 }
