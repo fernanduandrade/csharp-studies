@@ -2,14 +2,18 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using SalesMvc.Services;
+using SalesMvc.Models.ViewModels;
+using SalesMvc.Models;
 
 namespace SalesMvc.Controllers
 {
     public class SalesRecordsController : Controller
     {
         private readonly SalesRecordService _salesRecordService;
-        public SalesRecordsController(SalesRecordService salesRecordService)
+        private readonly SellerService _sellerService;
+        public SalesRecordsController(SalesRecordService salesRecordService, SellerService sellerService)
         {
+            _sellerService = sellerService;
             _salesRecordService = salesRecordService;
         }
         public IActionResult Index() => View();
@@ -48,6 +52,25 @@ namespace SalesMvc.Controllers
             return View(result);
         }
 
-        public IActionResult Create() => View();
+        public async Task<IActionResult> Create()
+        {
+            var sellers = await _sellerService.FindAllAsync();
+            var viewModel = new SalesRecordViewModel {Sellers = sellers};
+            return View(viewModel);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(SalesRecord salesRecord)
+        {
+           if(!ModelState.IsValid)
+            {
+                var sellers = await _sellerService.FindAllAsync();
+                var viewModel = new SalesRecordViewModel {SalesRecord = salesRecord, Sellers = sellers};
+                return View(viewModel);
+            }
+            await _salesRecordService.InsertAsync(salesRecord);
+            return RedirectToAction(nameof(Index));
+        }
     }
 }
